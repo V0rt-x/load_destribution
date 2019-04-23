@@ -1,2 +1,1 @@
-Михайлов Дмитрий Михайлович
-213 группа
+For any information read the "research.docx" file
