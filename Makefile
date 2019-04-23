@@ -1,12 +1,12 @@
 all: gen.o alg.o
 
 gen.o:
-	g++ src/gen.cpp -o src/gen_MihailovDM_213
+	g++ gen.cpp -o gen
 
 alg.o:
-	g++ src/alg.cpp -o src/alg_MihailovDM_213
+	g++ alg.cpp -o alg
 
 clean:
-	rm -rf src/*.o src/*.exe src/*.out
+	rm -rf *.o *.exe *.out
 
 	
